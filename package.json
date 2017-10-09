@@ -1,0 +1,36 @@
+{
+  "name": "email",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "server.js",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.0",
+    "boom": "^6.0.0",
+    "config": "^1.26.2",
+    "crypto": "^1.0.1",
+    "eslint": "^4.7.2",
+    "fs": "0.0.1-security",
+    "hapi": "^16.6.0",
+    "hapi-auth-jwt2": "^7.3.0",
+    "hapi-swagger-next": "^1.0.0",
+    "inert": "^4.2.1",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^8.0.1",
+    "log4js": "^2.3.4",
+    "mongoose": "^4.11.13",
+    "nodemailer": "^4.1.3",
+    "otplib": "^6.0.3",
+    "path": "^0.12.7",
+    "standard": "^10.0.3",
+    "uuid": "^3.1.0",
+    "vision": "^4.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "author": "Harish",
+  "license": "ISC"
+}

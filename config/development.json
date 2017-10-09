@@ -1,0 +1,9 @@
+{
+    "host" : "localhost",
+    "port" : "3000",
+    "mongoDb" : {
+        "URI" : "mongodb://localhost:27017/email",
+        "PORT" : "27017"
+    },
+    "secret_key" : "ThisIsTOp7SecreT&!23#"
+}
